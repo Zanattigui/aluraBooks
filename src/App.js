@@ -15,7 +15,7 @@ function App() {
     <AppContainer>
       <Header/>
       <Pesquisa/>
-    </AppContainer> //Teste
+    </AppContainer> //Testando
   );
 }
 
