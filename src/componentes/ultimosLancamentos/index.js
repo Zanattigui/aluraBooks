@@ -1,6 +1,8 @@
 import {livros} from './ultimosLancamentos'
 import styled from 'styled-components'
 import {Titulo} from '../titulo'
+import CardRecomenda from '../cardRecomenda'
+import imgAngular from '../../imagens/livro2.png'
 
 const UltimosLancamentosContainer = styled.section`
     background-color: #EBECEE;
@@ -26,6 +28,12 @@ function UltimosLancamentos () {
                     <img src={livro.src}/>
                 ))}
             </NovosLivrosContainer>
+            <CardRecomenda
+                titulo="Recomendações:"
+                subtitulo="Angular"
+                descricao="Aprenda Angular"
+                img={imgAngular}
+            />
         </UltimosLancamentosContainer>
     )
 }
